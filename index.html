@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+    <link rel="stylesheet" href="./tailwind.config.js" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awseome -->
+    <script
+      src="https://kit.fontawesome.com/40fc70c36d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Raw css -->
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="w-11/12 m-auto font-manrope">
+      <!-- Header Section -->
+      <header class="mt-10 md:flex items-center w-full justify-between">
+        <!-- text content -->
+        <div class="">
+          <h1 class="text-4xl lg:text-6xl xl:text-7xl font-extrabold">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-gray-500 md:w-3/4 mt-3">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button class="mt-4 rounded-md bg-gradient-to-r from-orange-500 to-red-500 text-white px-3 py-2 font-bold">Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-xl ml-1 "></i></button>
+        </div>
+        <!-- Image  -->
+        <div class="relative">
+          <!-- Img -->
+          <div>
+            <img src="./images/banner.png" class="w-full z-20" alt="" />
+          </div>
+          <!-- Card -->
+          <div
+            class="shadow-lg absolute -bottom-5 left-14 md:-bottom-5 md:left-0 lg:left-16 xl:bottom-4 xl:left-40 px-2 py-2 md:px-4 md:py-3 xl:py-5 xl:px-05 flex items-center gap-2 md:gap-3 z-40 bg-white"
+          >
+            <!-- Icon -->
+            <div>
+              <i class="fa-regular fa-star md:text-2xl xl:text-3xl text-xl font-bold"></i>
+            </div>
+            <!-- Text -->
+            <div>
+              <h2 class="text-xl md:text-2xl xl:text-3xl font-bold">5.00</h2>
+              <p class="text-gray-500 text-base text-sm md:text-base">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
+  </body>
+</html>
