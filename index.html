@@ -34,6 +34,10 @@
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
+      .team_bg{
+        border-radius: 10px;
+background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+      }
     </style>
   </head>
   <body>
@@ -41,7 +45,7 @@
       <!-- Header Section -->
       <header class="mt-10 md:flex items-center w-full justify-between">
         <!-- text content -->
-        <div class="">
+        <div class="grid">
           <h1 class="text-4xl lg:text-6xl xl:text-7xl font-extrabold">
             It's good <br />
             tea time at The <br />
@@ -52,7 +56,7 @@
             Your Taste Buds.
           </p>
           <button
-            class="mt-4 rounded-md bg-gradient-to-r from-orange-500 to-red-500 text-white px-3 py-2 font-bold"
+            class="mt-4 md:w-40 rounded-md bg-gradient-to-r from-orange-500 to-red-500 text-white px-3 py-2 font-bold"
           >
             Explore More
             <i class="fa-solid fa-arrow-right -rotate-45 text-xl ml-1"></i>
@@ -217,25 +221,159 @@
         <!-- Presentation Text -->
         <div>
           <h2 class="text-3xl md:text-4xl lg:text-5xl xl:text-7xl mb-5 font-extrabold  ">Great Tea, Freshly <br> Presented</h2>
-          <p class="text-gray-500  text-sm my-3 xl:my-4 md:text-base lg:w-3/4">
+          <p class="text-gray-500  text-sm my-3 xl:my-4 md:text-base lg:w-3/4 text-justify">
             The meaning of gong cha is chanese is to provide the best tea to
             emperor from all possessions . It represents the highest quality and
             self expectation. Establishing in 2006, Gong cha had been deeply
             appreciated by its custoers because of good words of mouth and
             unique customized service orginated from Taiwan.
           </p>
-          <h6 class="text-xl font-bold mt-2 xl:mt-4 ">Unique Taste</h6>
+          <h6 class="text-xl lg:text-3xl   font-bold mt-2 xl:mt-4 xl:mb-1 ">Unique Taste</h6>
           <p class="text-sm md:text-base text-gray-500 ">
             A Unique and different style from other teapots gives a luxurious
             and minimalist impression
           </p>
-          <h6 class="text-xl font-bold mt-3 xl:mt-4 ">Premium Quality</h6>
+          <h6 class="text-xl lg:text-3xl   font-bold mt-3 xl:mt-4 xl:mb-1 ">Premium Quality</h6>
           <p class="text-sm md:text-base text-gray-500 ">
             Premium Quality that makes tea more elegant and more durable when
             you use it.
           </p>
         </div>
       </section>
+
+<!-- Client Meet section -->
+ <section class="client_meet_section pb-5 team_bg md:mt-16 px-5 py-10  grid md:grid-cols-2 gap-8 lg:gap-32" >
+<!-- Meet text -->
+ <div class="flex justify-center text-white flex-col">
+<h2 class="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-7xl ">Meet Our Super <br> Clients</h2>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+<button class="bg-white text-orange-700 px-3 py-2 font-bold rounded-lg mt-4 md:self-start  md:text-xl">Show All</button>
+ </div>
+ <!-- Meet Cards -->
+  <div class="flex flex-col justify-center relative mt-5 md:mt-0 gap-12 md:gap-16">
+<!-- Card 1 -->
+ 
+ <div class="relative bg-white h-48 w-10/12 md:h-64 left-12  md:w-3/4 opacity-40 md:left-24 rounded-lg ">
+    <!-- card img -->
+     <div class="absolute md:-top-5 md:-left-5 -top-8 -left-5 bg-white rounded-full">
+        <img src="./images/client.png" class="p-1" alt="">
+     </div>
+     <!-- Card text -->
+     <div class="flex  items-center h-full px-4 md:px-8 ">
+    <div>
+        <p class="text-gray-500 text-sm md:text-base mt-3 md:mt-0">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+        <h4 class="font-bold mt-2 text-sm md:text-xl">Ilham Yuda</h4>
+        <small class="text-gray-500">Bussinessman</small>
+      </div>
+  </div>
+ </div>
+
+<!-- Card 2 -->
+ 
+ <div class=" bg-white h-48 w-10/12 md:h-64 ml-1  md:w-11/12 lg:w-3/4 my-10 md:my-8 absolute top-24 z-20 rounded-lg ">
+    <!-- card img -->
+     <div class="absolute md:-top-5 md:-left-5 -top-8 -left-5 bg-white rounded-full">
+        <img src="./images/client.png" class="p-1" alt="">
+     </div>
+     <!-- Card text -->
+     <div class="flex items-center h-full px-4 md:px-8">
+    <div>
+        <p class="text-gray-500 text-sm md:text-base mt-3 md:mt-0">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+        <h4 class="font-bold md:mt-2 mt-1 text-sm md:text-xl">Ilham Yuda</h4>
+        <small class="text-gray-500 ">Bussinessman</small>
+      </div>
+  </div>
+ </div>
+
+
+<!-- Card 3 -->
+ 
+ <div class="relative bg-white h-48 w-10/12 md:h-64 left-12  md:w-3/4 opacity-40 md:left-24 rounded-lg">
+    <!-- card img -->
+     <div class="absolute md:-top-5 md:-left-5 -top-8 -left-5 bg-white rounded-full">
+        <img src="./images/client.png" class="p-1" alt="">
+     </div>
+     <!-- Card text -->
+     <div class="flex  items-center h-full px-4 md:px-8">
+    <div>
+        <p class="text-gray-500 text-sm md:text-base mt-3 md:mt-0">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+        <h4 class="font-bold mt-2 text-sm md:text-xl">Ilham Yuda</h4>
+        <small class="text-gray-500">Bussinessman</small>
+      </div>
+  </div>
+ </div>
+
+  </div>
+ </section>
+
+ <!-- Event Section -->
+  <section class="event_section my-3 md:my-5">
+    <!-- Event Header -->
+     <div class="text-center">
+<h2 class="text-2xl md:text-4xl lg:text-6xl mt-2 md:mb-4 font-bold">News & Events</h2>
+<p class="text-gray-500 text-sm md:text-base md:w-3/4 xl:w-8/12 m-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+     </div>
+     <!-- Event Card -->
+      <div class="grid md:grid-cols-3 gap-5 mt-5">
+        <!-- Card 1 -->
+         <div class="border border-gray-300 rounded-lg">
+          <!-- Card img -->
+           <div class="p-5">
+            <img src="./images/news-1.png" class="w-full border-none " alt="">
+           </div>
+           <!-- Card Text -->
+            <div class="px-6 pb-3">
+              <p class="text-sm text-gray-500">Feb 05, 2027</p>
+              <h6 class="text-xl font-bold md:text-2xl md:font-extrabold ">
+                Collecting 8 points for <br> discount
+              </h6>
+              <p class="text-gray-500 text-sm md:text-base md:w-8/12 md:my-2">There are many variations of passages of Lorem Ipsum available.</p>
+              <p class="text-xl font-bold my-1">
+                Learn More
+              </p>
+            </div>
+         </div>
+ 
+        <!-- Card 2 -->
+         <div class="border border-gray-300 rounded-lg">
+          <!-- Card img -->
+           <div class="p-5">
+            <img src="./images/news-1.png" class="w-full border-none " alt="">
+           </div>
+           <!-- Card Text -->
+            <div class="px-6 pb-3">
+              <p class="text-sm text-gray-500">Feb 05, 2027</p>
+              <h6 class="text-xl font-bold md:text-2xl md:font-extrabold ">
+                Collecting 8 points for <br> discount
+              </h6>
+              <p class="text-gray-500 text-sm md:text-base md:w-8/12 md:my-2">There are many variations of passages of Lorem Ipsum available.</p>
+              <p class="text-xl font-bold my-1">
+                Learn More
+              </p>
+            </div>
+         </div>
+ 
+        <!-- Card 3 -->
+         <div class="border border-gray-300 rounded-lg">
+          <!-- Card img -->
+           <div class="p-5">
+            <img src="./images/news-1.png" class="w-full border-none " alt="">
+           </div>
+           <!-- Card Text -->
+            <div class="px-6 pb-3">
+              <p class="text-sm text-gray-500">Feb 05, 2027</p>
+              <h6 class="text-xl font-bold md:text-2xl md:font-extrabold ">
+                Collecting 8 points for <br> discount
+              </h6>
+              <p class="text-gray-500 text-sm md:text-base md:w-8/12 md:my-2">There are many variations of passages of Lorem Ipsum available.</p>
+              <p class="text-xl font-bold my-1">
+                Learn More
+              </p>
+            </div>
+         </div>
+ 
+      </div>
+  </section>
     </main>
   </body>
 </html>
